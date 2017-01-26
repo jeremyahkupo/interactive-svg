@@ -7,7 +7,6 @@ svg:hover #right-ear, svg:hover #left-ear {
   transform: translateY(-10px);
 }
 
-
 .eyes {
   transform: translateX(0);
   animation: horizontalmove 3s linear infinite;

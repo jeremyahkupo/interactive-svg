@@ -1,22 +1,14 @@
-#right-ear {
-  transform: rotate(0deg);
+#left-ear, #right-ear {
+  transform: translateY(0);
   transition: all .5s linear;
 }
 
-svg:hover #right-ear {
-  transform: rotate(-2deg);
+svg:hover #right-ear, svg:hover #left-ear {
+  transform: translateY(-10px);
 }
 
-#left-ear {
-  transform: rotate(0deg);
-  transition: all .5s linear;
-}
 
-svg:hover #left-ear {
-  transform: rotate(-6deg);
-}
-
-#left-eye {
+.eyes {
   transform: translateX(0);
   animation: horizontalmove 3s linear infinite;
 }
@@ -37,34 +29,6 @@ svg:hover #left-ear {
 
   75% {
     transform: translateX(-10px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-#right-eye {
-  transform: translateX(0);
-  animation: horizontalmove 3s linear infinite;
-}
-
-@keyframes horizontalmove {
-
-  0% {
-    transform: translateX(0);
-  }
-
-  25% {
-    transform: translateX(-10px);
-  }
-
-  50% {
-    transform: translateX(0);
-  }
-
-  75% {
-    transform: translateX(10px);
   }
 
   100% {

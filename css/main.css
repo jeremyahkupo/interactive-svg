@@ -24,7 +24,7 @@ svg:hover #left-ear {
 @keyframes horizontalmove {
 
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   25% {
@@ -32,7 +32,7 @@ svg:hover #left-ear {
   }
 
   50% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   75% {
@@ -40,7 +40,7 @@ svg:hover #left-ear {
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -52,7 +52,7 @@ svg:hover #left-ear {
 @keyframes horizontalmove {
 
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   25% {
@@ -60,7 +60,7 @@ svg:hover #left-ear {
   }
 
   50% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   75% {
@@ -68,6 +68,6 @@ svg:hover #left-ear {
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
